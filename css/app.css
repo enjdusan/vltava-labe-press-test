@@ -1,2 +1,3 @@
+*{box-sizing:border-box}body{background-color:#fff;color:#5a5a5a;font-size:1rem;font-family:'Open Sans', Arial, sans-serif}img{max-width:100%}a{color:#007bff}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width: 576px){.container{max-width:540px}}@media (min-width: 768px){.container{max-width:720px}}@media (min-width: 992px){.container{max-width:960px}}@media (min-width: 1200px){.container{max-width:1170px}}.header-brand{font-size:4rem}
 
 /*# sourceMappingURL=app.css.map */

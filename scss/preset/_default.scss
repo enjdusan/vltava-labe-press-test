@@ -3,11 +3,21 @@
 }
 
 body {
-  background-color: #fff;
-  color: #dadada;
+  background-color: $base-bg;
+  color: $base-color;
   font-size: 1rem;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 img {
   max-width: 100%;
+}
+
+a {
+  color: $link-color;
+}
+
+.container {
+  @include make-container;
+  @include make-container-max-widths;
 }
