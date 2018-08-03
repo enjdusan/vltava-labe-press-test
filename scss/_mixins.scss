@@ -20,8 +20,13 @@
   }
 }
 
-@mixin make-grid-cols() {
-  @for $i from 1 through 12 {
-
+@mixin max-width($max-width) {
+  @media (max-width: #{map_get($breakpoints, $max-width) - 1}) {
+    @content
   }
+}
+
+@mixin flex-col-width($width) {
+  flex: 0 0 $width;
+  max-width: $width;
 }

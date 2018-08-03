@@ -45,8 +45,7 @@ a {
 
   @for $i from 1 through 12 {
     &-#{$i} {
-      flex: 0 0 percentage(1/12) * $i;
-      max-width: percentage(1/12) * $i;
+      @include flex-col-width(percentage(1/12) * $i);
     }
   }
 }
