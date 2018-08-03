@@ -17,35 +17,3 @@ img {
 a {
   color: $link-color;
 }
-
-.container {
-  @include make-container;
-  @include make-container-max-widths;
-}
-
-.row {
-  margin-left: -$gutter-width;
-  margin-right: -$gutter-width;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: $gutter-width;
-  padding-left: $gutter-width;
-
-  flex-basis: 0;
-  flex-grow: 1;
-  max-width: 100%;
-
-  align-content: center;
-
-  @for $i from 1 through 12 {
-    &-#{$i} {
-      @include flex-col-width(percentage(1/12) * $i);
-    }
-  }
-}
