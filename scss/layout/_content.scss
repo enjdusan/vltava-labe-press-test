@@ -1,0 +1,17 @@
+.content {
+  background-color: $main-bg;
+
+  .row {
+    margin-bottom: $gutter-width * 2;
+  }
+
+  &-red {
+    background-color: #dc3545;
+    height: 100%;
+  }
+
+  &-aside {
+    background-color: $link-color;
+    height: 600px;
+  }
+}
