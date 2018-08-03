@@ -12,5 +12,9 @@ export default [
   'atribut',
   'audit',
   'autoalarm',
-  'autogen'
+  'autogen',
+  'akvabela',
+  'akontace',
+  'akustika',
+  'akord',
 ];

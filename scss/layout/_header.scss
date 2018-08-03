@@ -83,6 +83,14 @@
       &.collapsed {
         display: none;
       }
+
+      &-more {
+        padding-top: 3px;
+
+        font-style: italic;
+        color: lighten($base-color, 10%);
+        font-size: 0.875em;
+      }
     }
   }
 
