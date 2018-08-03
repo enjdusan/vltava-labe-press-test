@@ -18,8 +18,14 @@
             </div>
             <div class="col">
                 <div class="header-search">
-                    <input type="text" class="header-search-input">
+                    <input type="text" id="search-input" class="header-search-input">
                     <button type="submit" class="header-search-btn"></button>
+                    <div id="autocompleter" class="header-search-completer collapsed">
+                        <ul>
+                            <li><a href="#">Slovo</a></li>
+                            <li><a href="#">Další</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -66,5 +72,7 @@
         </div>
     </div>
 </section>
+
+<script src="./js/dist/app.min.js"></script>
 </body>
 </html>

@@ -47,6 +47,43 @@
       right: 5px;
       top: 12px;
     }
+
+    &-completer {
+      background-color: $base-bg;
+      border: 1px solid $base-color;
+      border-top: none;
+
+      width: 100%;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1001;
+
+      ul {
+        padding: $gutter-width;
+        margin: 0;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
+      a {
+        display: block;
+        padding: 3px;
+
+        &:hover {
+          color: $base-bg;
+          text-decoration: none;
+          background-color: $link-color;
+        }
+      }
+
+      &.collapsed {
+        display: none;
+      }
+    }
   }
 
   .col {
