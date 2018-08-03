@@ -9,6 +9,27 @@
     }
   }
 
+  @include min-width(lg) {
+    %animation-final-state {
+      position: absolute;
+      left: -12.5%;
+      top: -12.5%;
+      z-index: 1000;
+
+      width: 125%;
+    }
+
+    .col {
+      &-inside {
+        &:hover {
+          animation: hover .2s ease-out;
+
+          @extend %animation-final-state;
+        }
+      }
+    }
+  }
+
   &-red {
     background-color: #dc3545;
     height: 400px;
@@ -43,5 +64,19 @@
         @include flex-col-width(100%);
       }
     }
+  }
+}
+
+@keyframes hover {
+  from {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+  }
+  to {
+    @extend %animation-final-state;
   }
 }
