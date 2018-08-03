@@ -1,0 +1,28 @@
+{
+  "name": "vltava-labe-press",
+  "version": "1.0.0",
+  "description": "Vltava Labe Press test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dušan Novák",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "gulp": "^4.0.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.0.0",
+    "webpack-stream": "^4.0.2"
+  }
+}
