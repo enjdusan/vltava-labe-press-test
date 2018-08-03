@@ -1,16 +1,17 @@
-#Vltava Labe Press test web
+Vltava Labe Press test web
+=
 
-###Dev dependencies
+**Dev dependencies**
 ```
 $ npm install
 ```
 
-###Build
+**Build**
 ```
 $ gulp
 ```
 
-###Build watcher
+**Build watcher**
 ```
 $ gulp watch
 ```
