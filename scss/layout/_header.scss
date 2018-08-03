@@ -12,7 +12,7 @@
     margin-bottom: 0.5em;
 
     @include min-width(lg) {
-      font-size: 3rem;
+      font-size: 2.875rem;
 
       margin-bottom: 0;
     }
@@ -58,7 +58,7 @@
       }
 
       @include min-width(xl) {
-        @include flex-col-width(45%);
+        @include flex-col-width(36%);
       }
     }
 
@@ -70,7 +70,7 @@
       }
 
       @include min-width(xl) {
-        @include flex-col-width(55%);
+        @include flex-col-width(64%);
       }
     }
   }
