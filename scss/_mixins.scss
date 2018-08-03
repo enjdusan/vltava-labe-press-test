@@ -13,3 +13,9 @@
     }
   }
 }
+
+@mixin min-width($min-width) {
+  @media (min-width: #{map_get($breakpoints, $min-width)}) {
+    @content
+  }
+}

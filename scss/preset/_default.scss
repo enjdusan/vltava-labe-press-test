@@ -27,6 +27,7 @@ a {
   margin-left: -$gutter-width;
   margin-right: -$gutter-width;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .col {

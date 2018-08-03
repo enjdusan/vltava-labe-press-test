@@ -3,10 +3,19 @@
   padding-bottom: 50px;
 
   &-brand {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-decoration: none;
     color: $base-color;
+
+    display: inline-block;
+    margin-bottom: 0.5em;
+
+    @include min-width(lg) {
+      font-size: 3rem;
+
+      margin-bottom: 0;
+    }
   }
 
   &-search {
@@ -37,6 +46,16 @@
       position: absolute;
       right: 5px;
       top: 12px;
+    }
+  }
+
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    @include min-width(lg) {
+      flex: 0 0 50%;
+      max-width: 50%;
     }
   }
 }
