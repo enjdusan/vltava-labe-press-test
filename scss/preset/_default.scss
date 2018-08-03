@@ -5,6 +5,7 @@
 body {
   background-color: $base-bg;
   color: $base-color;
+
   font-size: 1rem;
   font-family: 'Open Sans', Arial, sans-serif;
 }
@@ -20,4 +21,24 @@ a {
 .container {
   @include make-container;
   @include make-container-max-widths;
+}
+
+.row {
+  margin-left: -$gutter-width;
+  margin-right: -$gutter-width;
+  display: flex;
+}
+
+.col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: $gutter-width;
+  padding-left: $gutter-width;
+
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+
+  align-content: center;
 }

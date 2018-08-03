@@ -1,5 +1,42 @@
 .header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
   &-brand {
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: $base-color;
+  }
+
+  &-search {
+    max-width: 380px;
+    padding-top: 7px;
+
+    position: relative;
+
+    &-input {
+      background-color: $search-bg;
+
+      font-size: 1.25rem;
+
+      padding: 10px 5px;
+      width: 100%;
+
+      border: 1px solid $base-color;
+    }
+
+    &-btn {
+      background: $search-bg url('../img/search.svg') no-repeat right center;
+
+      width: 42px;
+      height: 35px;
+      border: none;
+      padding-left: 10px;
+
+      position: absolute;
+      right: 5px;
+      top: 12px;
+    }
   }
 }
