@@ -19,3 +19,9 @@
     @content
   }
 }
+
+@mixin make-grid-cols() {
+  @for $i from 1 through 12 {
+
+  }
+}
