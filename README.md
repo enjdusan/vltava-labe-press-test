@@ -3,7 +3,7 @@ Vltava Labe Press test web
 
 **Demo**
 
-`https://vltava-labe-press.herokuapp.com/`
+https://vltava-labe-press.herokuapp.com/
 
 **Dev dependencies**
 ```
